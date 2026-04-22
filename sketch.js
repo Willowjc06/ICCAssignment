@@ -6,11 +6,11 @@ let canvas_height = 400;
 
 function preload() { // preload function to load sound files before playing
     soundFormats('wav'); // specify the used sound format
-    sound1 = loadSound('/audio/dong.wav'); // load sound files
-    sound2 = loadSound('/audio/dong2.wav');
-    sound3 = loadSound('/audio/dong3.wav');
-    sound4 = loadSound('/audio/dong4.wav');
-    sound5 = loadSound('/audio/dong5.wav');
+    sound1 = loadSound('audio/dong.wav'); // load sound files
+    sound2 = loadSound('audio/dong2.wav');
+    sound3 = loadSound('audio/dong3.wav');
+    sound4 = loadSound('audio/dong4.wav');
+    sound5 = loadSound('audio/dong5.wav');
 
 }
 
